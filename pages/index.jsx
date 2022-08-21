@@ -13,15 +13,15 @@ export default function Index() {
           >
             <div className="txt">Filters</div>
             <svg
-              class="w-6 h-6"
+              className="w-6 h-6"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
@@ -46,13 +46,14 @@ export default function Index() {
             "
           >
             <Image
+            alt="image"
               src="/images/1.jpg"
               className="w-full h-full object-cover"
               layout="fill"
             />
           </div>
         </motion.div>
-        
+
       </div>
     </div>
   );
